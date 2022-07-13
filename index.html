@@ -2,7 +2,9 @@
 <head>
     <meta charset="utf-8">
     <title>Карточка товара</title>
-    <link rel = stylesheet href = style.css>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="layout">
@@ -41,16 +43,16 @@
                     </div>
                 </div>
                 <div class="item__counter">
-                    <button class="counter__btn" disabled>-</button>
-                    <input class="counter__num" type="text" value="1" disabled>
-                    <button class="counter__btn">+</button>
+                    <button class="counter__btn counter__btn-decrement" disabled>-</button>
+                    <input class="counter__num" type="number" value="1">
+                    <button class="counter__btn counter__btn-increment">+</button>
                 </div>
                 <div class="item__btns-container">
                     <button class="item__btn item__btn--blue">Купить</button>
                     <button class="item__btn">В избранное</button>
                 </div>
                 <div class="item__about">
-                    Рубашка Medicne выполнена из вискозной ткани с клетчатым узором.<br>Детали: прямой крой; отложной воротник; плака и манжеты на пуговицах; карман на груди.
+                    Рубашка Medicine выполнена из вискозной ткани с клетчатым узором.<br>Детали: прямой крой; отложной воротник; плака и манжеты на пуговицах; карман на груди.
                 </div>
                 <div class="item__share">
                     Поделиться:
